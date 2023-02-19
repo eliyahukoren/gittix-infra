@@ -1,4 +1,4 @@
-apiVersion: apps/va
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: auth-depl
@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: eli0ren/ticketing-auth
+          image: elik0ren/ticketing-auth
 ---
 apiVersion: v1
 kind: Service
